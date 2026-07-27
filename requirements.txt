@@ -15,7 +15,6 @@ pypdf>=5.0.0                     # Extract text from PDF files
 pdfplumber>=0.11.0               # Robust PDF text extraction
 python-docx>=1.1.0               # Extract text from Word documents
 defusedxml>=0.7.1                # Protect against XML External Entity (XXE) attacks
-PyPDF2>=3.0.0                    # Legacy PDF manipulation support
 reportlab>=5.0.0                 # PDF document generation
 pytesseract>=0.3.13              # OCR text extraction from scanned images
 Pillow>=10.0.0                   # Image processing library
@@ -30,7 +29,6 @@ pyotp>=2.9.0                     # TOTP generator/verifier for 2FA
 qrcode>=7.4.2                    # Local QR code generator for 2FA setup
 python-dotenv>=1.0.0             # Load credentials from .env
 plotly>=5.20.0                   # Interactive heatmap with hover values
-deep-translator>=1.11.4          # Translation alignment for cross-lingual support
 streamlit-tour>=1.1.0            # Interactive guided tour component
 streamlit-plotly-events==0.0.6
 
@@ -79,3 +77,4 @@ isort>=5.13.0                   # Import sorting library
 # ── Google Integration ─────────────────────────────────────────────────────────
 google-api-python-client>=2.198.0
 google-auth>=2.56.2
+google-cloud-translate>=3.12.0
